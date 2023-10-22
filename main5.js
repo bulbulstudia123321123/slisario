@@ -8,6 +8,7 @@
   let renderCounter = 0;
   let ray, raf, projector;
   let tag = null;
+  const musik = new Audio("https://cdn.jsdelivr.net/gh/bulbulstudia123321123/slisario@784669739b4e946e82e3a40ff6517a3fafee0262/subnautica_below_zero_07.%20Light%20Rays.mp3")
   const apple = new Audio("https://cdn.jsdelivr.net/gh/bulbulstudia123321123/slisario@872be4729f8bf993591c2d38ce068e9b602c704b/apple.mp3")
   const gameScoreBoard = doc.getElementById("gamescore")
   const pauseScreen = doc.getElementById("pause")
