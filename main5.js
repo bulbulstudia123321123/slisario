@@ -15,6 +15,7 @@
   const gameOver = new Audio("https://cdn.jsdelivr.net/gh/bulbulstudia123321123/slisario@b884213ce9e9b1d4e0f6795792f321184e5f444f/semen.mp3")
 function showPauseScreen (){
   pauseScreen.className = "paused";
+  musik.play();
 }
 function hidePauseScreen (){
   pauseScreen.className = "paused hidden";
